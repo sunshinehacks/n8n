@@ -21,6 +21,6 @@ echo "✅ n8n data volume is ready!"
 # Docker Compose Setup
 echo "🐳 Setting up Docker Compose..."
 wget https://raw.githubusercontent.com/sunshinehacks/n8n/refs/heads/main/compose.yaml -O compose.yaml
-export EXTERNAL_IP= "140.238.163.201"
+export EXTERNAL_IP="140.238.163.201"
 sudo -E docker compose up -d
 echo "🎉 Installation complete! Access your service at: $EXTERNAL_IP"
